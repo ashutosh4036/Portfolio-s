@@ -1,8 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import viberr from '../../assets/aaaa.webp';
 import freshBurger from '../../assets/mern.webp';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import hipsster from '../../assets/port.webp';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -24,16 +23,11 @@ function Projects() {
         />
         <ProjectCard
           src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          link="https://github.com/ashutosh4036/Portfolio-s"
+          h3="Potfolio"
+          p="Personal Portfolio"
         />
-        <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
-        />
+        
       </div>
     </section>
   );
